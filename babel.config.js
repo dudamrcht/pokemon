@@ -1,5 +1,7 @@
 module.exports = {
-  presets: [
-    '@vue/app'
+  transpileDependencies: [
+    // can be string or regex
+    'my-dep',
+    /other-dep/
   ]
 }
